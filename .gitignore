@@ -31,3 +31,8 @@ microservicecloud-provider-dept-8001/target/microservicecloud.jar
 microservicecloud-provider-dept-8001/.settings/org.eclipse.m2e.core.prefs
 microservicecloud-provider-dept-8001/.settings/org.eclipse.jdt.core.prefs
 microservicecloud-provider-dept-8001/.settings/org.eclipse.core.resources.prefs
+microservicecloud-provider-dept-8001/target/classes/com/liu/microservice/service/DeptService.class
+microservicecloud-provider-dept-8001/target/classes/com/liu/microservice/controller/DeptController.class
+microservicecloud-provider-dept-8001/target/classes/com/liu/microservice/service/impl/DeptServiceImpl.class
+microservicecloud-provider-dept-8001/target/classes/com/liu/microservice/dao/DeptDao.class
+microservicecloud-provider-dept-8001/target/classes/com/liu/microservice/DeptProvider8001_App.class
