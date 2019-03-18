@@ -1,8 +1,6 @@
 package com.liu.springcloud.entity;
 
-import lombok.Data;
 
-@Data
 public class Dept {
 	private Long deptNo;
 	private String deptName;

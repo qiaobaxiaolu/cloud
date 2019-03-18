@@ -22,5 +22,12 @@ spring:
       max-total: 5                                          # 最大连接数
       max-wait-millis: 200                                  # 等待连接获取的最大超时时间
 
-eureka:  client:    service-url:      defaultZone: http://localhost:7001/eureka
-
+eureka:  client:    service-url:      defaultZone: http://eureka01:7001/eureka/,http://eureka02:7002/eureka/,http://eureka03:7003/eureka/
+  instance:    instance-id: microservicecloud-dept8001                 # 入住rureka的别名
+    prefer-ip-address: true                                 # 显示完整IP
+    
+info:                                                       # 在eureka中页面的说明
+  app.name: liu-microservicecloud
+  company.name: www.baidu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
