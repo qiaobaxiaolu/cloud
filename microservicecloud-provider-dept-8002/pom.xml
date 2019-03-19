@@ -8,7 +8,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>microservicecloud-provider-dept-8001</artifactId>
+	<artifactId>microservicecloud-provider-dept-8002</artifactId>
 
 	<dependencies>
 		<!-- 引入自己定义的api通用包，可以使用Dept部门Entity -->

@@ -13,7 +13,8 @@ import com.liu.springcloud.entity.Dept;
 @RestController
 public class DeptControllerConsumer {
 
-	private static final String REST_URL_PRIFIX="http://localhost:8001";
+	//private static final String REST_URL_PRIFIX="http://localhost:8001";
+	private static final String REST_URL_PRIFIX="http://MICROSERVICECLOUD-DEPT";
 	
 	@Autowired
 	private RestTemplate restTemplate;
