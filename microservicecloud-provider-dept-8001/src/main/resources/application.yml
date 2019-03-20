@@ -26,8 +26,8 @@ eureka:  client:    service-url:      defaultZone: http://eureka01:7001/eurek
   instance:    instance-id: microservicecloud-dept8001                 # 入住rureka的别名
     prefer-ip-address: true                                 # 显示完整IP
     
-info:                                                       # 在eureka中页面的说明
-  app.name: liu-microservicecloud
+info:                                                       # 在eureka中页面的说明  
+  app.name: liu-microservicecloud                           # info 信息下的标签自定义 将会在页面中以json的格式展出
   company.name: www.baidu.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
