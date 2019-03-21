@@ -9,5 +9,12 @@
 	</parent>
 
 	<artifactId>microservicecloud-api</artifactId><!-- 当前Module我自己叫什么名字 -->
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-feign</artifactId>
+		</dependency>
+	</dependencies>
 </project>
 
